@@ -1,0 +1,847 @@
+[
+  {
+    "concept_name": "high_valence",
+    "category": "dimensional",
+    "description": "Captures the degree of pleasantness or positivity in the text, ranging from neutral to extremely positive.",
+    "associated_emotions": [
+      "joy",
+      "contentment",
+      "pleasure"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "low_arousal",
+    "category": "dimensional",
+    "description": "Indicates a calm, relaxed, or peaceful state with low physiological activation.",
+    "associated_emotions": [
+      "calmness",
+      "serenity",
+      "relaxation"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "high_dominance",
+    "category": "dimensional",
+    "description": "Reflects feelings of control, confidence, and empowerment in the text.",
+    "associated_emotions": [
+      "pride",
+      "confidence",
+      "empowerment"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "pure_happiness",
+    "category": "discrete_emotions",
+    "description": "Characterizes expressions of unadulterated joy, delight, or elation.",
+    "associated_emotions": [
+      "joy",
+      "elation",
+      "delight"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "bittersweet_sadness",
+    "category": "discrete_emotions",
+    "description": "Captures a blend of sadness with positive elements, such as nostalgia or poignant fondness.",
+    "associated_emotions": [
+      "nostalgia",
+      "melancholy",
+      "poignancy"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "righteous_anger",
+    "category": "discrete_emotions",
+    "description": "Indicates anger directed at injustice or wrongdoing, often with a moral or positive framing.",
+    "associated_emotions": [
+      "indignation",
+      "moral outrage",
+      "righteousness"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "exhilarating_fear",
+    "category": "discrete_emotions",
+    "description": "Captures fear experienced as thrilling or exciting, such as in safe adventures.",
+    "associated_emotions": [
+      "thrill",
+      "excitement",
+      "adrenaline_rush"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "pleasant_surprise",
+    "category": "discrete_emotions",
+    "description": "Characterizes positive, unexpected events that evoke joy or amazement.",
+    "associated_emotions": [
+      "amazement",
+      "wonder",
+      "delighted_surprise"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "moral_disgust",
+    "category": "discrete_emotions",
+    "description": "Reflects disgust directed at ethical violations, often paired with a sense of moral superiority.",
+    "associated_emotions": [
+      "contempt",
+      "scorn",
+      "moral_repulsion"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "high_engagement",
+    "category": "cognitive_affective",
+    "description": "Indicates deep interest, attention, and involvement with the content.",
+    "associated_emotions": [
+      "interest",
+      "captivation",
+      "absorption"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "playful_confusion",
+    "category": "cognitive_affective",
+    "description": "Captures confusion that is enjoyable or intriguing, such as in puzzles or mysteries.",
+    "associated_emotions": [
+      "curiosity",
+      "intrigue",
+      "playfulness"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "anticipatory_boredom",
+    "category": "cognitive_affective",
+    "description": "Reflects a state of boredom that is mild and expectant of future positive engagement.",
+    "associated_emotions": [
+      "restlessness",
+      "anticipation",
+      "mild_disinterest"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "constructive_frustration",
+    "category": "cognitive_affective",
+    "description": "Characterizes frustration that motivates problem-solving or growth, rather than negativity.",
+    "associated_emotions": [
+      "determination",
+      "persistence",
+      "challenge_seeking"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "flow_state_load",
+    "category": "cognitive_affective",
+    "description": "Indicates a high but enjoyable cognitive load associated with immersive, rewarding tasks.",
+    "associated_emotions": [
+      "flow",
+      "immersion",
+      "focused_enjoyment"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "affiliative_irony",
+    "category": "linguistic_affective",
+    "description": "Captures ironic or sarcastic language used to bond, tease affectionately, or express camaraderie.",
+    "associated_emotions": [
+      "amusement",
+      "camaraderie",
+      "affectionate_teasing"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "high_emotional_intensity",
+    "category": "linguistic_affective",
+    "description": "Reflects strong, vivid emotional expression, whether positive or mixed, with heightened language.",
+    "associated_emotions": [
+      "passion",
+      "exuberance",
+      "fervor"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "resolved_ambiguity",
+    "category": "linguistic_affective",
+    "description": "Characterizes text where initial emotional ambiguity is clarified into a positive sentiment.",
+    "associated_emotions": [
+      "relief",
+      "clarity",
+      "satisfaction"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "moderate_arousal",
+    "category": "dimensional",
+    "description": "Indicates a balanced, alert state that is neither overly excited nor too calm.",
+    "associated_emotions": [
+      "alertness",
+      "interest",
+      "balanced_energy"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "shared_dominance",
+    "category": "dimensional",
+    "description": "Reflects a sense of collaborative control or mutual empowerment in social contexts.",
+    "associated_emotions": [
+      "cooperation",
+      "mutual_empowerment",
+      "shared_agency"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "contentment_bliss",
+    "category": "discrete_emotions",
+    "description": "Captures deep satisfaction and peaceful happiness, often with low arousal.",
+    "associated_emotions": [
+      "contentment",
+      "bliss",
+      "tranquility"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "hopeful_sadness",
+    "category": "discrete_emotions",
+    "description": "Characterizes sadness intertwined with optimism or hope for the future.",
+    "associated_emotions": [
+      "hope",
+      "longing",
+      "optimistic_sadness"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "protective_anger",
+    "category": "discrete_emotions",
+    "description": "Indicates anger driven by care or defense of others, often seen as virtuous.",
+    "associated_emotions": [
+      "protectiveness",
+      "fervor",
+      "compassionate_anger"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "aesthetic_surprise",
+    "category": "discrete_emotions",
+    "description": "Captures surprise evoked by beauty, artistry, or sublime experiences.",
+    "associated_emotions": [
+      "awe",
+      "wonder",
+      "admiration"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "curiosity_engagement",
+    "category": "cognitive_affective",
+    "description": "Reflects engagement specifically driven by curiosity and a desire to learn.",
+    "associated_emotions": [
+      "curiosity",
+      "inquisitiveness",
+      "exploratory_interest"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "rewarding_frustration",
+    "category": "cognitive_affective",
+    "description": "Characterizes frustration that is ultimately rewarding due to eventual success or insight.",
+    "associated_emotions": [
+      "satisfaction",
+      "accomplishment",
+      "triumph"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "humorous_irony",
+    "category": "linguistic_affective",
+    "description": "Indicates irony used primarily for humor and light-hearted amusement.",
+    "associated_emotions": [
+      "amusement",
+      "mirth",
+      "lightheartedness"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "nuanced_intensity",
+    "category": "linguistic_affective",
+    "description": "Captures emotional intensity expressed through subtle, layered, or complex language.",
+    "associated_emotions": [
+      "poignancy",
+      "depth",
+      "emotional_complexity"
+    ],
+    "emotion_category": "positive"
+  },
+  {
+    "concept_name": "low_valence",
+    "category": "dimensional",
+    "description": "Captures the degree of unpleasantness or negativity in the text, indicating a general negative emotional tone.",
+    "associated_emotions": [
+      "sadness",
+      "disgust",
+      "fear",
+      "anger"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "high_arousal_negative",
+    "category": "dimensional",
+    "description": "Measures high activation or intensity within a negative context, such as agitation or panic.",
+    "associated_emotions": [
+      "anger",
+      "fear",
+      "panic",
+      "frustration"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "low_dominance",
+    "category": "dimensional",
+    "description": "Indicates feelings of powerlessness, lack of control, or submission expressed in the text.",
+    "associated_emotions": [
+      "fear",
+      "sadness",
+      "submission",
+      "helplessness"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "melancholic_sadness",
+    "category": "discrete_emotions",
+    "description": "Characterizes a deep, reflective, and often prolonged state of sorrow or grief.",
+    "associated_emotions": [
+      "sadness",
+      "grief",
+      "melancholy",
+      "longing"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "hostile_anger",
+    "category": "discrete_emotions",
+    "description": "Captures expressions of anger directed outward, often with blame, criticism, or aggression.",
+    "associated_emotions": [
+      "anger",
+      "hostility",
+      "resentment",
+      "rage"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "anxious_fear",
+    "category": "discrete_emotions",
+    "description": "Identifies fear related to anticipation of threat, uncertainty, or worry about future events.",
+    "associated_emotions": [
+      "fear",
+      "anxiety",
+      "worry",
+      "apprehension"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "contemptuous_disgust",
+    "category": "discrete_emotions",
+    "description": "Measures disgust combined with a sense of moral superiority or scorn towards a person or idea.",
+    "associated_emotions": [
+      "disgust",
+      "contempt",
+      "scorn",
+      "moral_outrage"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "dismayed_surprise",
+    "category": "discrete_emotions",
+    "description": "Captures negative surprise, such as shock or dismay in response to an unwanted or unpleasant event.",
+    "associated_emotions": [
+      "surprise",
+      "shock",
+      "dismay",
+      "disappointment"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "anhedonic_absence",
+    "category": "discrete_emotions",
+    "description": "Reflects a notable lack of positive emotion or pleasure, often associated with depression or apathy.",
+    "associated_emotions": [
+      "sadness",
+      "apathy",
+      "emptiness",
+      "depression"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "high_engagement_negative",
+    "category": "cognitive_affective",
+    "description": "Indicates deep cognitive or emotional involvement with a negative stimulus, such as intense focus on a problem.",
+    "associated_emotions": [
+      "anger",
+      "fear",
+      "frustration",
+      "worry"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "semantic_confusion",
+    "category": "cognitive_affective",
+    "description": "Captures states of misunderstanding, perplexity, or cognitive disorientation due to contradictory or unclear information.",
+    "associated_emotions": [
+      "confusion",
+      "frustration",
+      "uncertainty"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "repetitive_boredom",
+    "category": "cognitive_affective",
+    "description": "Measures disengagement and low interest due to monotony, predictability, or lack of stimulation.",
+    "associated_emotions": [
+      "boredom",
+      "apathy",
+      "irritation",
+      "disinterest"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "goal_block_frustration",
+    "category": "cognitive_affective",
+    "description": "Identifies frustration arising from perceived obstacles, failures, or impediments to achieving a goal.",
+    "associated_emotions": [
+      "frustration",
+      "anger",
+      "annoyance",
+      "disappointment"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "high_cognitive_load_negative",
+    "category": "cognitive_affective",
+    "description": "Reflects high mental effort or processing demand in a negative context, such as solving a distressing problem.",
+    "associated_emotions": [
+      "stress",
+      "overwhelm",
+      "anxiety",
+      "frustration"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "ruminative_engagement",
+    "category": "cognitive_affective",
+    "description": "Captures repetitive, persistent focus on negative thoughts, problems, or past events.",
+    "associated_emotions": [
+      "worry",
+      "sadness",
+      "anxiety",
+      "regret"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "sarcastic_irony",
+    "category": "linguistic_affective",
+    "description": "Identifies the use of irony to convey criticism, mockery, or contempt, often by stating the opposite of the literal meaning.",
+    "associated_emotions": [
+      "contempt",
+      "anger",
+      "amusement",
+      "resentment"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "high_emotional_intensity_negative",
+    "category": "linguistic_affective",
+    "description": "Measures the strength or force of negative emotional expression through language, such as extreme or vivid descriptors.",
+    "associated_emotions": [
+      "rage",
+      "terror",
+      "despair",
+      "loathing"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "high_sentiment_ambiguity",
+    "category": "linguistic_affective",
+    "description": "Captures text where the emotional polarity is unclear, mixed, or contradictory, creating interpretative uncertainty.",
+    "associated_emotions": [
+      "confusion",
+      "uncertainty",
+      "ambivalence",
+      "skepticism"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "self_deprecating_tone",
+    "category": "linguistic_affective",
+    "description": "Identifies language that expresses criticism, blame, or negative judgment directed at oneself.",
+    "associated_emotions": [
+      "shame",
+      "sadness",
+      "guilt",
+      "low_self_worth"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "catastrophizing_language",
+    "category": "linguistic_affective",
+    "description": "Captures the use of exaggerated, extreme, or worst-case scenario framing to describe a situation.",
+    "associated_emotions": [
+      "anxiety",
+      "fear",
+      "dread",
+      "hopelessness"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "blame_externalizing",
+    "category": "linguistic_affective",
+    "description": "Measures the attribution of cause or responsibility for a negative outcome to an external agent or circumstance.",
+    "associated_emotions": [
+      "anger",
+      "resentment",
+      "indignation",
+      "bitterness"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "pessimistic_future_focus",
+    "category": "linguistic_affective",
+    "description": "Identifies a negative outlook or expectation about future events, outcomes, or possibilities.",
+    "associated_emotions": [
+      "hopelessness",
+      "worry",
+      "dread",
+      "pessimism"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "isolation_language",
+    "category": "linguistic_affective",
+    "description": "Captures expressions of loneliness, social disconnection, or feeling alienated from others.",
+    "associated_emotions": [
+      "loneliness",
+      "sadness",
+      "abandonment",
+      "alienation"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "moral_violation_language",
+    "category": "linguistic_affective",
+    "description": "Identifies text that frames events or actions as transgressions against ethical, social, or personal moral standards.",
+    "associated_emotions": [
+      "disgust",
+      "anger",
+      "contempt",
+      "outrage"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "threat_anticipation",
+    "category": "cognitive_affective",
+    "description": "Measures cognitive focus on potential danger, harm, or negative future events.",
+    "associated_emotions": [
+      "fear",
+      "anxiety",
+      "vigilance",
+      "apprehension"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "effortful_processing_negative",
+    "category": "cognitive_affective",
+    "description": "Captures the cognitive strain associated with processing complex, distressing, or contradictory negative information.",
+    "associated_emotions": [
+      "frustration",
+      "confusion",
+      "overwhelm",
+      "mental_fatigue"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "emotional_dissonance",
+    "category": "linguistic_affective",
+    "description": "Identifies a mismatch between the expressed emotional content and the expected or contextual emotional tone.",
+    "associated_emotions": [
+      "confusion",
+      "unease",
+      "skepticism",
+      "ambivalence"
+    ],
+    "emotion_category": "negative"
+  },
+  {
+    "concept_name": "neutral_valence",
+    "category": "dimensional",
+    "description": "Captures the absence of positive or negative emotional tone, indicating a balanced or indifferent affective state.",
+    "associated_emotions": [
+      "neutral"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "moderate_dominance",
+    "category": "dimensional",
+    "description": "Indicates a sense of control or influence that is neither high nor low, often present in neutral, factual statements.",
+    "associated_emotions": [
+      "neutral"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "neutral_happiness",
+    "category": "discrete_emotions",
+    "description": "Represents a baseline, non-elevated state of contentment without overt joy or pleasure.",
+    "associated_emotions": [
+      "contentment"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "neutral_sadness",
+    "category": "discrete_emotions",
+    "description": "Captures a lack of sorrow or melancholy, indicating an absence of negative affect related to loss or disappointment.",
+    "associated_emotions": [
+      "neutral"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "neutral_anger",
+    "category": "discrete_emotions",
+    "description": "Reflects the absence of irritation, hostility, or frustration, suggesting a calm, non-aggressive state.",
+    "associated_emotions": [
+      "calm"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "neutral_fear",
+    "category": "discrete_emotions",
+    "description": "Indicates a state free from anxiety, threat, or apprehension, typical of safe, routine contexts.",
+    "associated_emotions": [
+      "security"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "neutral_surprise",
+    "category": "discrete_emotions",
+    "description": "Captures a lack of unexpectedness or novelty, reflecting predictable, mundane information.",
+    "associated_emotions": [
+      "predictability"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "neutral_disgust",
+    "category": "discrete_emotions",
+    "description": "Represents an absence of aversion or revulsion, indicating acceptance or indifference toward stimuli.",
+    "associated_emotions": [
+      "acceptance"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "low_engagement",
+    "category": "cognitive_affective",
+    "description": "Reflects minimal cognitive or emotional investment in the content, often seen in neutral, uninteresting text.",
+    "associated_emotions": [
+      "indifference"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "low_confusion",
+    "category": "cognitive_affective",
+    "description": "Indicates clarity and understanding without cognitive dissonance or uncertainty.",
+    "associated_emotions": [
+      "clarity"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "low_boredom",
+    "category": "cognitive_affective",
+    "description": "Captures a state of mild interest or attentiveness without excitement or disengagement.",
+    "associated_emotions": [
+      "mild_interest"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "low_frustration",
+    "category": "cognitive_affective",
+    "description": "Reflects an absence of obstruction or annoyance, suggesting smooth cognitive processing.",
+    "associated_emotions": [
+      "ease"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "low_cognitive_load",
+    "category": "cognitive_affective",
+    "description": "Indicates minimal mental effort required for comprehension, typical of simple, straightforward neutral text.",
+    "associated_emotions": [
+      "effortlessness"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "absence_of_irony",
+    "category": "linguistic_affective",
+    "description": "Captures literal, straightforward expression without sarcasm or implied meaning contrary to the surface text.",
+    "associated_emotions": [
+      "sincerity"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "low_emotional_intensity",
+    "category": "linguistic_affective",
+    "description": "Reflects subdued or absent emotional expression, with language that is factual and non-emphatic.",
+    "associated_emotions": [
+      "neutral"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "low_sentiment_ambiguity",
+    "category": "linguistic_affective",
+    "description": "Indicates clear, unambiguous sentiment that is explicitly neutral, without mixed or unclear emotional signals.",
+    "associated_emotions": [
+      "clarity"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "informational_tone",
+    "category": "linguistic_affective",
+    "description": "Captures a focus on factual, objective content delivery without persuasive or emotional language.",
+    "associated_emotions": [
+      "neutral"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "low_empathy_demand",
+    "category": "linguistic_affective",
+    "description": "Reflects text that does not require emotional resonance or perspective-taking from the reader.",
+    "associated_emotions": [
+      "detachment"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "predictable_linguistic_pattern",
+    "category": "linguistic_affective",
+    "description": "Indicates use of conventional, routine language structures without stylistic variation or emotional emphasis.",
+    "associated_emotions": [
+      "familiarity"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "neutral_self_reference",
+    "category": "cognitive_affective",
+    "description": "Captures first-person or self-related statements that are factual and devoid of emotional evaluation.",
+    "associated_emotions": [
+      "self-awareness"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "low_social_emotion",
+    "category": "discrete_emotions",
+    "description": "Reflects an absence of emotions tied to social interactions, such as embarrassment, pride, or gratitude.",
+    "associated_emotions": [
+      "neutral"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "neutral_anticipation",
+    "category": "dimensional",
+    "description": "Indicates a lack of forward-looking excitement or dread, focusing on the present or routine future.",
+    "associated_emotions": [
+      "expectancy"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "low_aesthetic_appraisal",
+    "category": "linguistic_affective",
+    "description": "Captures text without judgments of beauty, ugliness, or artistic value, focusing on functional description.",
+    "associated_emotions": [
+      "neutral"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "neutral_moral_tone",
+    "category": "cognitive_affective",
+    "description": "Reflects an absence of ethical or moral evaluation, presenting information without judgment of right or wrong.",
+    "associated_emotions": [
+      "impartiality"
+    ],
+    "emotion_category": "neutral"
+  },
+  {
+    "concept_name": "low_novelty_seeking",
+    "category": "cognitive_affective",
+    "description": "Indicates content that does not stimulate curiosity or desire for new experiences, maintaining a steady state.",
+    "associated_emotions": [
+      "routine"
+    ],
+    "emotion_category": "neutral"
+  }
+]
